@@ -39,7 +39,9 @@ end
 end
 def shortened_tweet_truncator (array)
   if array.length > 140
-    array.collect
- active_projects.collect {|proj|  [proj.name.to_s[0..10], proj.id]}   
+    array.collect {|word|word.t_s[0..140]...}
+ else 
+   array
+ end
     
     
