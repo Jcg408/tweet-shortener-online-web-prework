@@ -45,4 +45,3 @@ def shortened_tweet_truncator (array)
   end
 end 
     
-    
