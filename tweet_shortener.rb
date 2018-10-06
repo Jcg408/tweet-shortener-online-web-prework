@@ -43,5 +43,7 @@ def shortened_tweet_truncator (array)
  else 
    array
  end
+ end
+ 
     
     
