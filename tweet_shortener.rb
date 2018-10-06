@@ -39,7 +39,8 @@ end
 end
 def shortened_tweet_truncator (array)
   if array.length > 140
-    array.collect {|word|word.t_s[0..140] ...'lse 
+    array.collect {|word|word.t_s[0..140] '...'}
+ else 
    array
  end
     
