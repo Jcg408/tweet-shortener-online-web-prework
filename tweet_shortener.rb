@@ -35,5 +35,5 @@ end
       word_substituter(array)
     else
       array
-end
+    end
 end
